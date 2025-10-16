@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-navy: #0a192f;
+  --color-cyan: #64ffda;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(1200px 600px at 100% -20%, rgba(100, 255, 218, 0.06), transparent),
+    radial-gradient(1000px 500px at -10% 120%, rgba(100, 255, 218, 0.05), transparent),
+    var(--color-navy);
+  color: #e6f1ff;
+}
+
+/* Reusable utilities */
+.container-responsive {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.text-gradient-cyan {
+  background: linear-gradient(90deg, #64ffda, #a7fff0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.card-surface {
+  @apply bg-slate-900/40 backdrop-blur supports-[backdrop-filter]:bg-slate-900/30 border border-slate-700/50 rounded-xl shadow-lg;
+}
+
+.cta-primary {
+  @apply inline-flex items-center justify-center rounded-lg bg-cyan text-navy font-semibold px-5 py-3 transition hover:brightness-95 focus:outline-none focus:ring-2 focus:ring-cyan/60;
+}
+
+.cta-secondary {
+  @apply inline-flex items-center justify-center rounded-lg border border-cyan text-cyan px-5 py-3 hover:bg-cyan/10 transition;
+}
