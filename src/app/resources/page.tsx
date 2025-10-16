@@ -1,9 +1,9 @@
-import FadeIn from "@/components/FadeIn";
-import { posts } from "@/data/posts";
+import FadeIn from '@/components/FadeIn';
+import { posts } from '@/data/posts';
 
 export const metadata = {
-  title: "Resources & Insights | Numaware",
-  description: "Tips, news, and updates to stay secure.",
+  title: 'Resources & Insights | Numaware',
+  description: 'Tips, news, and updates to stay secure.',
 };
 
 export default function ResourcesPage() {

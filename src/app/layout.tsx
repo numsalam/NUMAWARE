@@ -17,9 +17,7 @@ export const metadata: Metadata = {
       'Cybersecurity solutions: assessments, awareness training, compliance, incident response, managed support.',
     url: 'https://numaware.com',
     siteName: 'Numaware',
-    images: [
-      { url: '/logo.png', width: 512, height: 512, alt: 'Numaware' },
-    ],
+    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'Numaware' }],
     locale: 'en_US',
     type: 'website',
   },
@@ -35,7 +33,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.className} bg-navy text-white antialiased min-h-screen flex flex-col`}>
+      <body
+        className={`${inter.className} bg-navy text-white antialiased min-h-screen flex flex-col`}
+      >
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

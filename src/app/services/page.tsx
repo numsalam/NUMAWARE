@@ -1,11 +1,11 @@
-import FadeIn from "@/components/FadeIn";
-import { services } from "@/data/services";
-import Link from "next/link";
+import FadeIn from '@/components/FadeIn';
+import { services } from '@/data/services';
+import Link from 'next/link';
 
 export const metadata = {
-  title: "Our Cybersecurity Solutions | Numaware",
+  title: 'Our Cybersecurity Solutions | Numaware',
   description:
-    "Security assessments, awareness training, compliance, incident response, and managed support.",
+    'Security assessments, awareness training, compliance, incident response, and managed support.',
 };
 
 export default function ServicesPage() {
@@ -30,7 +30,9 @@ export default function ServicesPage() {
       </div>
 
       <div className="mt-10">
-        <Link href="/contact" className="cta-primary">Get a Free Consultation</Link>
+        <Link href="/contact" className="cta-primary">
+          Get a Free Consultation
+        </Link>
       </div>
     </div>
   );

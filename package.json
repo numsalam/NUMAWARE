@@ -34,7 +34,6 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.14",
     "@types/node": "^24.7.2",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
@@ -46,7 +45,7 @@
     "framer-motion": "^12.23.24",
     "postcss": "^8.5.6",
     "prettier": "^3.6.2",
-    "tailwindcss": "^4.1.14",
+    "tailwindcss": "^3.4.15",
     "typescript": "^5.9.3"
   }
 }

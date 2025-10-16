@@ -1,8 +1,8 @@
-import FadeIn from "@/components/FadeIn";
+import FadeIn from '@/components/FadeIn';
 
 export const metadata = {
-  title: "Contact Numaware",
-  description: "Get in touch for assessments, training, or support.",
+  title: 'Contact Numaware',
+  description: 'Get in touch for assessments, training, or support.',
 };
 
 export default function ContactPage() {
@@ -23,22 +23,39 @@ export default function ContactPage() {
         >
           <label className="grid gap-1">
             <span className="text-slate-300">Name</span>
-            <input name="name" required className="rounded bg-slate-900 border border-slate-700 px-3 py-2" />
+            <input
+              name="name"
+              required
+              className="rounded bg-slate-900 border border-slate-700 px-3 py-2"
+            />
           </label>
           <label className="grid gap-1">
             <span className="text-slate-300">Email</span>
-            <input type="email" name="email" required className="rounded bg-slate-900 border border-slate-700 px-3 py-2" />
+            <input
+              type="email"
+              name="email"
+              required
+              className="rounded bg-slate-900 border border-slate-700 px-3 py-2"
+            />
           </label>
           <label className="grid gap-1">
             <span className="text-slate-300">Message</span>
-            <textarea name="message" rows={5} required className="rounded bg-slate-900 border border-slate-700 px-3 py-2" />
+            <textarea
+              name="message"
+              rows={5}
+              required
+              className="rounded bg-slate-900 border border-slate-700 px-3 py-2"
+            />
           </label>
-          <button type="submit" className="cta-primary w-max">Send Message</button>
+          <button type="submit" className="cta-primary w-max">
+            Send Message
+          </button>
         </form>
 
         <div className="card-surface p-6">
           <h3 className="text-lg font-semibold">Numaware</h3>
-          <p className="text-slate-300 mt-2">contact@numaware.com</p>
+          <p className="text-slate-300 mt-2">numsalamsecurit@gmail.com</p>
+          <p className="text-slate-300 mt-1">+2347075665178</p>
           <p className="text-slate-400 mt-2">Hyderabad, India</p>
         </div>
       </div>

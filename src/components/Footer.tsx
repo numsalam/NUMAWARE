@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -15,30 +15,47 @@ export default function Footer() {
           <div>
             <h4 className="text-slate-200 font-medium">Quick Links</h4>
             <ul className="mt-2 space-y-2 text-slate-400">
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/services">Services</Link></li>
-              <li><Link href="/course">Course</Link></li>
-              <li><Link href="/resources">Resources</Link></li>
-              <li><Link href="/contact">Contact</Link></li>
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/services">Services</Link>
+              </li>
+              <li>
+                <Link href="/course">Course</Link>
+              </li>
+              <li>
+                <Link href="/resources">Resources</Link>
+              </li>
+              <li>
+                <Link href="/contact">Contact</Link>
+              </li>
             </ul>
           </div>
           <div>
             <h4 className="text-slate-200 font-medium">Follow</h4>
             <ul className="mt-2 space-y-2 text-slate-400">
               <li>
-                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="LinkedIn">
+                  LinkedIn
+                </a>
               </li>
               <li>
-                <a href="#" aria-label="Twitter">Twitter/X</a>
+                <a href="#" aria-label="Twitter">
+                  Twitter/X
+                </a>
               </li>
               <li>
-                <a href="#" aria-label="YouTube">YouTube</a>
+                <a href="#" aria-label="YouTube">
+                  YouTube
+                </a>
               </li>
             </ul>
           </div>
         </div>
         <div className="text-slate-400">
-          <p className="mb-2">contact@numaware.com</p>
+          <p className="mb-2">numsalamsecurit@gmail.com</p>
+          <p className="mb-2">+2347075665178</p>
           <p>© 2025 Numaware. All rights reserved.</p>
         </div>
       </div>

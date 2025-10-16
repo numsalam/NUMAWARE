@@ -1,15 +1,15 @@
-"use client";
-import Link from "next/link";
-import Image from "next/image";
-import { usePathname } from "next/navigation";
-import React from "react";
+'use client';
+import Link from 'next/link';
+import Image from 'next/image';
+import { usePathname } from 'next/navigation';
+import React from 'react';
 
 const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/services", label: "Services" },
-  { href: "/course", label: "Course" },
-  { href: "/resources", label: "Resources" },
-  { href: "/contact", label: "Contact" },
+  { href: '/', label: 'Home' },
+  { href: '/services', label: 'Services' },
+  { href: '/course', label: 'Course' },
+  { href: '/resources', label: 'Resources' },
+  { href: '/contact', label: 'Contact' },
 ];
 
 export default function Navbar() {
@@ -30,10 +30,10 @@ export default function Navbar() {
                 <Link
                   href={item.href}
                   className={
-                    "px-1.5 py-2 transition border-b-2 " +
+                    'px-1.5 py-2 transition border-b-2 ' +
                     (isActive
-                      ? "text-cyan border-cyan"
-                      : "text-slate-300 hover:text-white border-transparent hover:border-cyan/50")
+                      ? 'text-cyan border-cyan'
+                      : 'text-slate-300 hover:text-white border-transparent hover:border-cyan/50')
                   }
                 >
                   {item.label}
@@ -45,7 +45,9 @@ export default function Navbar() {
         <div className="md:hidden">
           {/* Simple mobile menu placeholder */}
           <details className="relative">
-            <summary className="list-none cursor-pointer px-3 py-2 rounded border border-slate-700 text-slate-200">Menu</summary>
+            <summary className="list-none cursor-pointer px-3 py-2 rounded border border-slate-700 text-slate-200">
+              Menu
+            </summary>
             <ul className="absolute right-0 mt-2 w-48 card-surface p-2">
               {navItems.map((item) => (
                 <li key={item.href}>

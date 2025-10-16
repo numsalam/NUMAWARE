@@ -12,7 +12,8 @@ html {
 }
 
 body {
-  background: radial-gradient(1200px 600px at 100% -20%, rgba(100, 255, 218, 0.06), transparent),
+  background:
+    radial-gradient(1200px 600px at 100% -20%, rgba(100, 255, 218, 0.06), transparent),
     radial-gradient(1000px 500px at -10% 120%, rgba(100, 255, 218, 0.05), transparent),
     var(--color-navy);
   color: #e6f1ff;
